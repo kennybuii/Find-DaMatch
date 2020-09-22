@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.HighScoreScreen">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="736dp"
+        android:layout_height="414dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/space_background" />
+
+    <ImageView
+        android:id="@+id/high_scores"
+        android:layout_width="298dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/high_scores_text" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="328dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/high_score_1"
+        android:layout_width="411dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="100dp"
+        android:textColor="#4CAF50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/high_score_3"
+        android:layout_width="411dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="180dp"
+        android:textColor="#4CAF50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/high_score_4"
+        android:layout_width="411dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="224dp"
+        android:textColor="#4CAF50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/high_score_5"
+        android:layout_width="411dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="264dp"
+        android:textColor="#4CAF50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/high_score_2"
+        android:layout_width="411dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="140dp"
+        android:textColor="#4CAF50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="80dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="348dp"
+        android:layout_marginTop="324dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/clear_button"
+        android:layout_width="80dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="464dp"
+        android:layout_marginTop="324dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

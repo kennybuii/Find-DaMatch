@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.WelcomeScreen">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="754dp"
+        android:layout_height="424dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/space_background" />
+
+    <Button
+        android:id="@+id/skip_button"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="504dp"
+        android:layout_marginTop="336dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/welcome_to"
+        android:layout_width="341dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="26dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/welcome_to_text" />
+
+    <ImageView
+        android:id="@+id/planet_3"
+        android:layout_width="187dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="436dp"
+        android:layout_marginTop="124dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/planet_3" />
+
+    <ImageView
+        android:id="@+id/game_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="95dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/game_title_text" />
+
+    <ImageView
+        android:id="@+id/authors"
+        android:layout_width="337dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="336dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/authors_text" />
+
+    <ImageView
+        android:id="@+id/planet_1"
+        android:layout_width="340dp"
+        android:layout_height="174dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="174dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/planet_1" />
+
+    <ImageView
+        android:id="@+id/planet_2"
+        android:layout_width="248dp"
+        android:layout_height="131dp"
+        android:layout_marginEnd="552dp"
+        android:layout_marginBottom="308dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/planet_2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

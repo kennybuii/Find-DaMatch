@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ca.cmpt276.project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/astronaut"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/astronaut"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".UI.RemoveUploadedScreen"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".UI.ViewUploadedScreen"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".UI.UploadImgOptionsScreen"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".UI.RemoveImagesScreen"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".UI.FlickrOptionsScreen"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".UI.DownloadedImagesScreen"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".UI.OptionsScreen"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Flickr.PhotoGalleryActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".UI.AddNewScoreScreen"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".UI.GameScreen"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".UI.MenuScreen"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".UI.HighScoreScreen"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".UI.HelpScreen"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".UI.WelcomeScreen"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

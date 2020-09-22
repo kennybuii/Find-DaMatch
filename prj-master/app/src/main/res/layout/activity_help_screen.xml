@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.HelpScreen">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="737dp"
+        android:layout_height="415dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/space_background" />
+
+    <ImageView
+        android:id="@+id/how_to_play"
+        android:layout_width="444dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/how_to_play_text" />
+
+    <ImageView
+        android:id="@+id/game_description"
+        android:layout_width="678dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/game_description" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="328dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="471dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="336dp"
+        android:text="@string/options_usage"
+        android:textColor="#FFEB3B"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

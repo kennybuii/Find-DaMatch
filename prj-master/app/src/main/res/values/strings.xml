@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Find daMatch</string>
+    <string name="search">Search</string>
+    <string name="clear_search">Clear Search</string>
+    <string name="add_images">Add images</string>
+    <string name="view_images">View Images</string>
+    <string name="remove_images">Remove Images</string>
+    <string name="time">Time:</string>
+    <string name="flickr_search">Flickr Search</string>
+    <string name="options_usage">(Total number of cards and symbols per card can be changed in Options)</string>
+</resources>
